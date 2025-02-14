@@ -1,0 +1,10 @@
+# Mengabaikan file objek hasil kompilasi
+*.o
+*.obj
+
+# Mengabaikan file eksekusi di dalam folder c/
+c/*.exe
+c/*.out
+
+# Mengabaikan semua file dalam folder c/ dan subfolder-subfoldernya
+c/*

@@ -8,7 +8,7 @@ int main()
      printf("==== Program Command mr kuncay ====\n");
      printf("==================================\n");
      printf("-----------------------------------\n");
-     printf("");
+     printf("\n");
 
 
      printf("\nRumus untuk menghitung Luas Persegi = Sisi x Sisi");
@@ -17,7 +17,7 @@ int main()
 
      luas = sisi*sisi;
 
-     printf("\nLuas Persegi = %d", luas);
+     printf("\nLuas Persegi = %d\n", luas);
 
      return 0;
 }

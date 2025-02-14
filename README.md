@@ -3,10 +3,10 @@
 				
 
 					Bahasa Pemograman C
------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
 
- -- Oprasi FILE
-	( Penggunaan operasi FILE dalam sebuah program sangat dibutuhkan dalam pembuatan program yang sesungguhnya. Kita membutuhkan file sebagai tempat penampung data-data selama operasi program. Jika kamu menggunakan variabel biasa, data yang biasanya diolah program hanya akan tersimpan sementara dalam memory dan akan hilang ketika program close. Berbeda dengan memory, penyimpanan data berbasis file akan tersimpan terus walaupun program telah diclose maupun komputer telah di shutdown.
+ - Oprasi FILE
+	Penggunaan operasi FILE dalam sebuah program sangat dibutuhkan dalam pembuatan program yang sesungguhnya. Kita membutuhkan file sebagai tempat penampung data-data selama operasi program. Jika kamu menggunakan variabel biasa, data yang biasanya diolah program hanya akan tersimpan sementara dalam memory dan akan hilang ketika program close. Berbeda dengan memory, penyimpanan data berbasis file akan tersimpan terus walaupun program telah diclose maupun komputer telah di shutdown.
 
 Pada dasarnya, operasi file terbagi 3 jenis. Read (R), Write(W), dan Append(A). Read artinya membaca isi file, write menulis data ke file dan append menambahkan data ke baris terakhir dalam file.
 	int main(){
@@ -35,6 +35,7 @@ File *fptr;
 // membuka file
 fptr = fopen("namafile.txt", "r");
 
+```c
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -58,3 +59,4 @@ void main()
   // tutup file
   fclose(fptr);
 }
+```
